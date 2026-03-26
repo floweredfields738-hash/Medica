@@ -54,70 +54,114 @@
     </section>
 
     <!-- SECTION — Interactive Showcase -->
-    <section class="section-padding" aria-labelledby="showcase-heading">
+    <section class="section-padding showcase-section" aria-labelledby="showcase-heading">
       <div class="container">
         <div class="showcase">
-          <!-- Left content area -->
-          <div class="showcase__content">
-            <div class="showcase__label" id="showcase-heading">
-              <span class="showcase__label-line"></span>
-              <span class="showcase__label-text">OUR SOLUTIONS</span>
-            </div>
+          <div class="showcase__inner">
 
-            <div class="showcase__panels">
+          <!-- Top-left: small description -->
+          <div class="showcase__top-left">
+            <div class="showcase__panels showcase__panels--small">
               <div class="showcase__panel showcase__panel--active" data-panel="partners">
-                <p class="showcase__description">
-                  Our end-to-end partner ecosystem provides clinics with everything they need —
-                  from device procurement and regulatory guidance to hands-on training and
-                  ongoing technical support.
+                <p class="showcase__small-text">
+                  Our end-to-end partner ecosystem provides clinics with everything they need — from device procurement to ongoing support.
                 </p>
               </div>
               <div class="showcase__panel" data-panel="technology">
-                <p class="showcase__description">
-                  White Hair Pro uses advanced light-based energy to target hair follicles
-                  that traditional lasers miss — safely treating white, grey, blonde, and
-                  red hair with clinically proven results.
+                <p class="showcase__small-text">
+                  White Hair Pro targets hair follicles that traditional lasers miss — safely treating all hair colours.
                 </p>
               </div>
               <div class="showcase__panel" data-panel="training">
-                <p class="showcase__description">
-                  Comprehensive certification programmes ensure your team is fully equipped.
-                  From initial onboarding to advanced technique workshops, we invest in
-                  your clinic's long-term success.
+                <p class="showcase__small-text">
+                  Comprehensive certification programmes ensure your team is fully equipped from day one.
                 </p>
               </div>
               <div class="showcase__panel" data-panel="growth">
-                <p class="showcase__description">
-                  Data-driven marketing kits, co-branded campaigns, and patient acquisition
-                  strategies designed to help partner clinics grow revenue and expand their
-                  client base from day one.
+                <p class="showcase__small-text">
+                  Data-driven marketing kits and patient acquisition strategies to grow your clinic's revenue.
                 </p>
               </div>
             </div>
+          </div>
 
-            <div class="showcase__stat">
-              <span class="showcase__stat-number" data-stat="partners">360°</span>
-              <span class="showcase__stat-number" data-stat="technology" style="display:none;">+98.5%</span>
-              <span class="showcase__stat-number" data-stat="training" style="display:none;">200+</span>
-              <span class="showcase__stat-number" data-stat="growth" style="display:none;">3x</span>
-              <span class="showcase__stat-label" data-stat-label="partners">Full partner ecosystem coverage</span>
-              <span class="showcase__stat-label" data-stat-label="technology" style="display:none;">Demonstrated efficacy across hair types</span>
-              <span class="showcase__stat-label" data-stat-label="training" style="display:none;">Hours of certified training content</span>
-              <span class="showcase__stat-label" data-stat-label="growth" style="display:none;">Average revenue growth for partners</span>
+          <!-- Top-right: label + paragraph -->
+          <div class="showcase__top-right">
+            <div class="showcase__label" id="showcase-heading">
+              <span class="showcase__label-text">OUR SOLUTIONS</span>
+              <span class="showcase__label-line"></span>
+            </div>
+            <div class="showcase__panels">
+              <div class="showcase__panel showcase__panel--active" data-panel="partners">
+                <p class="showcase__right-text">
+                  Our 360° Partner Ecosystem brings together technology, training, marketing and operational support, enabling clinics to confidently adopt new treatments.
+                </p>
+              </div>
+              <div class="showcase__panel" data-panel="technology">
+                <p class="showcase__right-text">
+                  Advanced light-based energy converts new treatment possibilities into real clinical outcomes, week after week.
+                </p>
+              </div>
+              <div class="showcase__panel" data-panel="training">
+                <p class="showcase__right-text">
+                  From initial onboarding to advanced technique workshops, we invest in building lasting clinical excellence.
+                </p>
+              </div>
+              <div class="showcase__panel" data-panel="growth">
+                <p class="showcase__right-text">
+                  Co-branded campaigns and referral systems designed to expand your client base and build loyalty.
+                </p>
+              </div>
             </div>
           </div>
 
-          <!-- Person overlay image -->
-          <div class="showcase__image">
-            <img src="../assets/images/erasebg-transformed.png" alt="Healthcare professional" class="showcase__person">
+          <!-- Bottom-left: bold heading -->
+          <div class="showcase__bottom-left">
+            <div class="showcase__panels">
+              <div class="showcase__panel showcase__panel--active" data-panel="partners">
+                <h2 class="showcase__heading">Full-service partner support across every stage.</h2>
+              </div>
+              <div class="showcase__panel" data-panel="technology">
+                <h2 class="showcase__heading">Treat every hair colour with clinical confidence.</h2>
+              </div>
+              <div class="showcase__panel" data-panel="training">
+                <h2 class="showcase__heading">Certified training from onboarding to mastery.</h2>
+              </div>
+              <div class="showcase__panel" data-panel="growth">
+                <h2 class="showcase__heading">Revenue growth built into the partnership model.</h2>
+              </div>
+            </div>
           </div>
 
-          <!-- Bottom tab buttons -->
+          <!-- Bottom-right: stat -->
+          <div class="showcase__bottom-right">
+            <div class="showcase__stat">
+              <span class="showcase__stat-number showcase__panel showcase__panel--active" data-panel="partners" data-stat="partners">360°</span>
+              <span class="showcase__stat-number showcase__panel" data-panel="technology" data-stat="technology">+98.5%</span>
+              <span class="showcase__stat-number showcase__panel" data-panel="training" data-stat="training">200+</span>
+              <span class="showcase__stat-number showcase__panel" data-panel="growth" data-stat="growth">3x</span>
+            </div>
+            <div class="showcase__stat-sub">
+              <span class="showcase__stat-label showcase__panel showcase__panel--active" data-panel="partners">Full partner ecosystem coverage</span>
+              <span class="showcase__stat-label showcase__panel" data-panel="technology">Demonstrated efficacy across hair types</span>
+              <span class="showcase__stat-label showcase__panel" data-panel="training">Hours of certified training content</span>
+              <span class="showcase__stat-label showcase__panel" data-panel="growth">Average revenue growth for partners</span>
+            </div>
+          </div>
+
+          <!-- Tab buttons -->
           <div class="showcase__tabs">
             <button class="showcase__tab showcase__tab--active" data-tab="partners">Partner Ecosystem</button>
             <button class="showcase__tab" data-tab="technology">White Hair Pro</button>
             <button class="showcase__tab" data-tab="training">Training &amp; Support</button>
             <button class="showcase__tab" data-tab="growth">Growth Strategy</button>
+          </div>
+
+          </div><!-- end showcase__inner -->
+
+          <!-- Person image (outside inner so it can overflow) -->
+          <div class="showcase__image">
+            <img src="../assets/images/erasebg-transformed.png" alt="Healthcare professional" class="showcase__person">
           </div>
         </div>
       </div>

@@ -6,34 +6,47 @@
 document.addEventListener('DOMContentLoaded', () => {
   const tabs = document.querySelectorAll('.showcase__tab');
   const panels = document.querySelectorAll('.showcase__panel');
-  const statNumbers = document.querySelectorAll('.showcase__stat-number');
-  const statLabels = document.querySelectorAll('.showcase__stat-label');
+  const inner = document.querySelector('.showcase__inner');
 
-  if (!tabs.length) return;
+  if (!tabs.length || !inner) return;
+
+  let transitioning = false;
+
+  // Set initial gradient
+  inner.setAttribute('data-active-tab', 'partners');
 
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       const target = tab.dataset.tab;
+      if (transitioning || tab.classList.contains('showcase__tab--active')) return;
 
-      // Update active tab
+      transitioning = true;
+
+      // Update active tab immediately
       tabs.forEach(t => t.classList.remove('showcase__tab--active'));
       tab.classList.add('showcase__tab--active');
 
-      // Switch panel
-      panels.forEach(p => {
-        p.classList.remove('showcase__panel--active');
-        if (p.dataset.panel === target) {
-          p.classList.add('showcase__panel--active');
-        }
-      });
+      // Fade out content
+      inner.classList.add('showcase__inner--fading');
 
-      // Switch stat
-      statNumbers.forEach(s => {
-        s.style.display = s.dataset.stat === target ? '' : 'none';
-      });
-      statLabels.forEach(s => {
-        s.style.display = s.dataset.statLabel === target ? '' : 'none';
-      });
+      // After fade out, swap content and fade back in
+      setTimeout(() => {
+        // Switch panels
+        panels.forEach(p => {
+          if (p.dataset.panel === target) {
+            p.classList.add('showcase__panel--active');
+          } else {
+            p.classList.remove('showcase__panel--active');
+          }
+        });
+
+        // Switch gradient
+        inner.setAttribute('data-active-tab', target);
+
+        // Fade back in
+        inner.classList.remove('showcase__inner--fading');
+        transitioning = false;
+      }, 300);
     });
   });
 });
