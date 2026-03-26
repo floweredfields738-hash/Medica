@@ -1,0 +1,113 @@
+/* ==========================================================================
+   Partners Page Styles
+   ========================================================================== */
+
+/* --- Hero Mini --- */
+.hero-mini {
+  text-align: center;
+}
+
+/* --- Section Header --- */
+.section-header {
+  max-width: 560px;
+}
+
+/* --- Benefit Icons --- */
+.benefit-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--color-accent-soft);
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: var(--font-size-body-sm);
+  color: var(--color-primary-mid);
+}
+
+/* --- Process Steps --- */
+.process-step {
+  text-align: center;
+}
+
+.process-step__number {
+  width: 48px;
+  height: 48px;
+  background: var(--color-surface);
+  border: var(--border-bold);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: var(--font-size-body);
+  color: var(--color-primary-dark);
+}
+
+/* --- Pricing Cards --- */
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card__price {
+  font-size: var(--font-size-h2);
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  line-height: 1;
+}
+
+.pricing-card__features {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.pricing-card__features li {
+  font-size: var(--font-size-body-sm);
+  color: var(--color-text-muted);
+  padding-left: var(--space-3);
+  position: relative;
+}
+
+.pricing-card__features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary-mid);
+}
+
+.pricing-card--featured {
+  background: var(--color-bg-alt);
+}
+
+.pricing-card .button-primary,
+.pricing-card .button-outline {
+  align-self: stretch;
+  text-align: center;
+}
+
+/* --- Apply CTA --- */
+.apply-cta {
+  text-align: center;
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}

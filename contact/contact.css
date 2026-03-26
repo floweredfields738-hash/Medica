@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Contact Page Styles
+   ========================================================================== */
+
+/* --- Hero Mini --- */
+.hero-mini {
+  text-align: center;
+}
+
+/* --- Section Header --- */
+.section-header {
+  max-width: 560px;
+}
+
+/* --- Contact Grid --- */
+.contact-grid {
+  align-items: start;
+}
+
+/* --- Form --- */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.form-label {
+  font-size: var(--font-size-body-sm);
+  font-weight: 600;
+  color: var(--color-primary-dark);
+}
+
+.form-input {
+  width: 100%;
+  padding: var(--space-2);
+  font-size: var(--font-size-body);
+  background: var(--color-surface);
+  border: var(--border);
+  border-radius: var(--radius-medium);
+  color: var(--color-text);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-input::placeholder {
+  color: var(--color-text-light);
+}
+
+.form-input:focus {
+  border-color: var(--color-primary-mid);
+  box-shadow: 0 0 0 3px rgba(82, 121, 111, 0.12);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* --- Contact Info Cards --- */
+.contact-info__card {
+  transition: none;
+}
+
+.contact-info__card:hover {
+  transform: none;
+}
+
+/* --- Map Placeholder --- */
+.map-placeholder {
+  width: 100%;
+  height: 360px;
+  background: var(--color-accent-soft);
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .map-placeholder {
+    height: 240px;
+  }
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Medical Fabrica — Your trusted healthcare partner. Modern medical solutions powered by technology.">
+  <title>Medical Fabrica — Home</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="home.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER — sticky, logo left, nav right, rounded CTA
+       ============================================================ -->
+  <header class="site-header" role="banner">
+    <div class="site-header__bar">
+      <a href="/" class="site-header__logo" aria-label="Medical Fabrica home">
+        <img src="assets/images/logo_default.avif" alt="Medical Fabrica" class="site-header__logo-default">
+        <img src="assets/images/logo.avif" alt="Medical Fabrica" class="site-header__logo-scrolled">
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <a href="/" class="site-nav__link">Home</a>
+        <a href="about/" class="site-nav__link">About Us</a>
+        <a href="partners/" class="site-nav__link">Partnerships</a>
+        <a href="contact/" class="site-nav__link">Contact Us</a>
+        <a href="login/" class="site-nav__cta">
+          <span class="site-nav__cta-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          </span>
+          Login
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         SECTION 1 — Hero
+         ============================================================ -->
+    <section class="hero section-padding" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <h1 id="hero-heading">Healthcare Solutions<br>You Can Trust</h1>
+            <p class="body-sm text-muted mt-3">
+              Medical Fabrica connects patients, providers, and partners through modern
+              technology — making quality healthcare accessible to everyone.
+            </p>
+            <div class="hero__actions mt-4">
+              <a href="about/" class="button-primary button-lg">Learn More</a>
+              <a href="contact/" class="button-outline button-lg">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="hero__image-placeholder rounded-xl" aria-hidden="true">
+              <span class="caption text-muted">Hero Image</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — Features Grid
+         ============================================================ -->
+    <section class="section-padding accent-section-light" aria-labelledby="features-heading">
+      <div class="container">
+        <header class="section-header mb-6">
+          <h2 id="features-heading">Why Choose Medical Fabrica</h2>
+          <p class="body-sm text-muted mt-2">Comprehensive tools designed for modern healthcare.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card" data-tilt data-aos="fade-up">
+            <div class="card__icon mb-3" aria-hidden="true">
+              <div class="icon-placeholder rounded-md">01</div>
+            </div>
+            <h3>Patient Management</h3>
+            <p class="body-sm text-muted mt-2">
+              Streamlined tools to manage patient records, appointments, and communication in one place.
+            </p>
+          </article>
+
+          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="100">
+            <div class="card__icon mb-3" aria-hidden="true">
+              <div class="icon-placeholder rounded-md">02</div>
+            </div>
+            <h3>Secure Data</h3>
+            <p class="body-sm text-muted mt-2">
+              Enterprise-grade security and encryption to protect sensitive health information at every step.
+            </p>
+          </article>
+
+          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="200">
+            <div class="card__icon mb-3" aria-hidden="true">
+              <div class="icon-placeholder rounded-md">03</div>
+            </div>
+            <h3>Analytics Dashboard</h3>
+            <p class="body-sm text-muted mt-2">
+              Real-time insights and reporting to help providers make data-driven decisions.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 3 — Technology
+         ============================================================ -->
+    <section class="section-padding" aria-labelledby="tech-heading">
+      <div class="container">
+        <div class="grid-2 tech-grid">
+          <div class="tech__visual" data-reveal="left">
+            <div class="tech__image-placeholder rounded-xl" aria-hidden="true">
+              <span class="caption text-muted">Technology Image</span>
+            </div>
+          </div>
+          <div class="tech__content" data-reveal="right" data-reveal-delay="150">
+            <h2 id="tech-heading">Built on Modern Technology</h2>
+            <p class="body-sm text-muted mt-3">
+              Our platform is designed with scalability, performance, and reliability at its core.
+              From cloud infrastructure to AI-assisted workflows, Medical Fabrica leverages the latest
+              advancements to deliver a seamless healthcare experience.
+            </p>
+            <ul class="tech__list mt-4" role="list">
+              <li class="tech__list-item">
+                <span class="tech__list-marker" aria-hidden="true"></span>
+                Cloud-native architecture
+              </li>
+              <li class="tech__list-item">
+                <span class="tech__list-marker" aria-hidden="true"></span>
+                AI-powered diagnostics support
+              </li>
+              <li class="tech__list-item">
+                <span class="tech__list-marker" aria-hidden="true"></span>
+                Real-time data synchronisation
+              </li>
+              <li class="tech__list-item">
+                <span class="tech__list-marker" aria-hidden="true"></span>
+                HIPAA-compliant infrastructure
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 4 — Partner CTA
+         ============================================================ -->
+    <section class="section-padding accent-section-dark" aria-labelledby="partner-cta-heading">
+      <div class="container partner-cta" data-aos="fade-up">
+        <h2 id="partner-cta-heading">Become a Partner</h2>
+        <p class="body-sm mt-2">
+          Join our growing network of healthcare professionals, clinics, and institutions.
+          Together we can improve outcomes and expand access to quality care.
+        </p>
+        <div class="mt-4">
+          <a href="partners/" class="button-primary button-lg">Partner With Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 5 — Testimonials
+         ============================================================ -->
+    <section class="section-padding" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <header class="section-header mb-6">
+          <h2 id="testimonials-heading">What People Are Saying</h2>
+          <p class="body-sm text-muted mt-2">Trusted by healthcare professionals worldwide.</p>
+        </header>
+
+        <div class="grid-3">
+          <blockquote class="card testimonial" data-tilt data-aos="fade-up">
+            <p class="testimonial__quote">
+              "Medical Fabrica transformed the way our clinic manages patient data. The interface
+              is intuitive and the support team is outstanding."
+            </p>
+            <footer class="testimonial__author mt-3">
+              <div class="testimonial__avatar rounded-full" aria-hidden="true"></div>
+              <div>
+                <cite class="testimonial__name">Dr. Sarah Chen</cite>
+                <p class="caption text-muted">Family Medicine, London</p>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="card testimonial" data-tilt data-aos="fade-up" data-aos-delay="100">
+            <p class="testimonial__quote">
+              "The analytics dashboard gives us insights we never had before.
+              It's become an essential part of our daily operations."
+            </p>
+            <footer class="testimonial__author mt-3">
+              <div class="testimonial__avatar rounded-full" aria-hidden="true"></div>
+              <div>
+                <cite class="testimonial__name">James Okafor</cite>
+                <p class="caption text-muted">Hospital Admin, Lagos</p>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="card testimonial" data-tilt data-aos="fade-up" data-aos-delay="200">
+            <p class="testimonial__quote">
+              "Partnering with Medical Fabrica was the best decision for our practice.
+              Patient satisfaction has increased significantly since we onboarded."
+            </p>
+            <footer class="testimonial__author mt-3">
+              <div class="testimonial__avatar rounded-full" aria-hidden="true"></div>
+              <div>
+                <cite class="testimonial__name">Dr. Maria Gonzalez</cite>
+                <p class="caption text-muted">Paediatrics, Madrid</p>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER — grid layout
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__brand">Medical Fabrica</p>
+          <p class="body-sm">Trusted healthcare solutions for a healthier tomorrow.</p>
+        </div>
+        <div>
+          <p class="site-footer__heading">Pages</p>
+          <a href="/" class="site-footer__link">Home</a>
+          <a href="about/" class="site-footer__link">About</a>
+          <a href="partners/" class="site-footer__link">Partners</a>
+        </div>
+        <div>
+          <p class="site-footer__heading">Support</p>
+          <a href="contact/" class="site-footer__link">Contact</a>
+          <a href="login/" class="site-footer__link">Login</a>
+        </div>
+        <div>
+          <p class="site-footer__heading">Legal</p>
+          <a href="#" class="site-footer__link">Privacy Policy</a>
+          <a href="#" class="site-footer__link">Terms of Service</a>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>&copy; 2026 Medical Fabrica. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts — CDN libs loaded with defer for performance -->
+  <script src="https://unpkg.com/lenis@1/dist/lenis.min.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1/dist/vanilla-tilt.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="home.js" defer></script>
+</body>
+</html>

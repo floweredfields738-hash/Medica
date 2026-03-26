@@ -1,0 +1,58 @@
+/* ==========================================================================
+   About Page Styles
+   ========================================================================== */
+
+/* --- Hero Mini --- */
+.hero-mini {
+  text-align: center;
+}
+
+/* --- Story --- */
+.story-grid {
+  align-items: center;
+}
+
+.story__image-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--color-accent-soft);
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- Mission --- */
+.mission-block {
+  max-width: 720px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+/* --- Section Header --- */
+.section-header {
+  max-width: 560px;
+}
+
+/* --- Team Cards --- */
+.team-card {
+  text-align: center;
+}
+
+.team-card__avatar {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--color-accent-soft);
+  border: var(--border);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .story__visual {
+    order: -1;
+  }
+}

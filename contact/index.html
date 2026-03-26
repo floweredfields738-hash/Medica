@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Medical Fabrica — Get in touch with our team. We'd love to hear from you.">
+  <title>Medical Fabrica — Contact</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="contact.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="site-header__bar">
+      <a href="../" class="site-header__logo" aria-label="Medical Fabrica home">
+        <img src="../assets/images/logo_default.avif" alt="Medical Fabrica" class="site-header__logo-default">
+        <img src="../assets/images/logo.avif" alt="Medical Fabrica" class="site-header__logo-scrolled">
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <a href="../" class="site-nav__link">Home</a>
+        <a href="../about/" class="site-nav__link">About Us</a>
+        <a href="../partners/" class="site-nav__link">Partnerships</a>
+        <a href="../contact/" class="site-nav__link">Contact Us</a>
+        <a href="../login/" class="site-nav__cta">
+          <span class="site-nav__cta-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          </span>
+          Login
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- SECTION 1 — Hero -->
+    <section class="hero-mini section-padding accent-section-light" aria-labelledby="contact-hero-heading">
+      <div class="container">
+        <h1 id="contact-hero-heading">Contact Us</h1>
+        <p class="body-sm text-muted mt-2">We'd love to hear from you. Reach out anytime.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 2 — Contact Grid (form + info) -->
+    <section class="section-padding" aria-labelledby="contact-form-heading">
+      <div class="container">
+        <div class="grid-2 contact-grid">
+
+          <!-- Contact Form -->
+          <div data-reveal>
+            <h2 id="contact-form-heading">Send a Message</h2>
+            <p class="body-sm text-muted mt-2 mb-4">Fill out the form and we'll get back to you within 24 hours.</p>
+
+            <form class="contact-form" action="#" method="POST" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Your name"
+                  required
+                  autocomplete="name"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  class="form-input"
+                  placeholder="you@example.com"
+                  required
+                  autocomplete="email"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <select id="contact-subject" name="subject" class="form-input" required>
+                  <option value="" disabled selected>Select a topic</option>
+                  <option value="general">General Enquiry</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="support">Support</option>
+                  <option value="billing">Billing</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  class="form-input form-textarea"
+                  rows="5"
+                  placeholder="How can we help?"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="button-primary button-lg">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <aside class="contact-info" aria-label="Contact information">
+            <div class="card contact-info__card mb-3" data-aos="fade-left">
+              <h3>Email</h3>
+              <p class="body-sm text-muted mt-1">hello@medica.com</p>
+            </div>
+
+            <div class="card contact-info__card mb-3" data-aos="fade-left" data-aos-delay="80">
+              <h3>Phone</h3>
+              <p class="body-sm text-muted mt-1">+44 (0) 20 7123 4567</p>
+            </div>
+
+            <div class="card contact-info__card mb-3" data-aos="fade-left" data-aos-delay="160">
+              <h3>Office</h3>
+              <p class="body-sm text-muted mt-1">
+                123 Health Street<br>
+                London, EC1A 1BB<br>
+                United Kingdom
+              </p>
+            </div>
+
+            <div class="card contact-info__card" data-aos="fade-left" data-aos-delay="240">
+              <h3>Hours</h3>
+              <p class="body-sm text-muted mt-1">
+                Monday – Friday: 9:00 – 18:00<br>
+                Saturday – Sunday: Closed
+              </p>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 — Map Placeholder (accent) -->
+    <section class="section-padding-sm accent-section-light" aria-label="Office location map">
+      <div class="container">
+        <div class="map-placeholder rounded-xl" data-aos="fade-up" aria-hidden="true">
+          <span class="caption text-muted">Map Placeholder</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4 — Info Cards -->
+    <section class="section-padding" aria-labelledby="info-cards-heading">
+      <div class="container">
+        <header class="section-header mb-6">
+          <h2 id="info-cards-heading">Other Ways to Connect</h2>
+          <p class="body-sm text-muted mt-2">Find the right channel for your needs.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card" data-tilt data-aos="fade-up">
+            <h3>Help Centre</h3>
+            <p class="body-sm text-muted mt-2">
+              Browse our knowledge base for guides, FAQs, and troubleshooting articles.
+            </p>
+            <a href="#" class="button-soft button-sm mt-3">Visit Help Centre</a>
+          </article>
+
+          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="100">
+            <h3>Live Chat</h3>
+            <p class="body-sm text-muted mt-2">
+              Chat with our support team in real time during business hours.
+            </p>
+            <a href="#" class="button-soft button-sm mt-3">Start Chat</a>
+          </article>
+
+          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="200">
+            <h3>Social Media</h3>
+            <p class="body-sm text-muted mt-2">
+              Follow us for updates, tips, and community stories.
+            </p>
+            <a href="#" class="button-soft button-sm mt-3">Follow Us</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__brand">Medical Fabrica</p>
+          <p class="body-sm">Trusted healthcare solutions for a healthier tomorrow.</p>
+        </div>
+        <div>
+          <p class="site-footer__heading">Pages</p>
+          <a href="../" class="site-footer__link">Home</a>
+          <a href="../about/" class="site-footer__link">About</a>
+          <a href="../partners/" class="site-footer__link">Partners</a>
+        </div>
+        <div>
+          <p class="site-footer__heading">Support</p>
+          <a href="../contact/" class="site-footer__link">Contact</a>
+          <a href="../login/" class="site-footer__link">Login</a>
+        </div>
+        <div>
+          <p class="site-footer__heading">Legal</p>
+          <a href="#" class="site-footer__link">Privacy Policy</a>
+          <a href="#" class="site-footer__link">Terms of Service</a>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>&copy; 2026 Medical Fabrica. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/lenis@1/dist/lenis.min.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1/dist/vanilla-tilt.min.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="contact.js" defer></script>
+</body>
+</html>
