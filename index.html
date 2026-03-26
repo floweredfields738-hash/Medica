@@ -48,168 +48,227 @@
   <main id="main-content">
 
     <!-- ============================================================
-         SECTION 1 — Hero
+         BENTO GRID
+         Layout:  A B D
+                  A C E
+                  F G E
          ============================================================ -->
-    <section class="hero section-padding" aria-labelledby="hero-heading">
+    <section class="section-padding" aria-label="Home bento grid">
       <div class="container">
-        <div class="hero__grid">
-          <div class="hero__content">
-            <h1 id="hero-heading">360° Partner<br>Ecosystem</h1>
-            <p class="body-sm text-muted mt-3">
-              Your blueprint for success. Medical Fabrica helps aesthetic clinics successfully
-              adopt and commercialise innovative treatment technologies with training, marketing
-              and operational support.
-            </p>
-            <div class="hero__actions mt-4">
-              <a href="partners/" class="button-primary button-lg">Explore Partnerships</a>
-              <a href="contact/" class="button-outline button-lg">Get in Touch</a>
+        <div class="bento">
+
+          <!-- A — Before/After Slider (rows 1-2, col 1) -->
+          <div class="bento__cell bento__a rounded-xl">
+            <div class="ba-slider" aria-label="Before and after comparison">
+              <div class="ba-slider__img ba-slider__img--after">
+                <img src="assets/images/after.png" alt="After treatment" draggable="false">
+              </div>
+              <div class="ba-slider__img ba-slider__img--before">
+                <img src="assets/images/before.png" alt="Before treatment" draggable="false">
+              </div>
+              <div class="ba-slider__handle" aria-hidden="true">
+                <div class="ba-slider__line"></div>
+                <div class="ba-slider__knob">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><polyline points="8 4 4 12 8 20"/><polyline points="16 4 20 12 16 20"/></svg>
+                </div>
+              </div>
+            </div>
+            <!-- Glassmorphic info card -->
+            <div class="ba-slider__card">
+              <p class="ba-slider__card-title">Real Results</p>
+              <p class="ba-slider__card-sub">Drag to compare before &amp; after</p>
             </div>
           </div>
-          <div class="hero__visual">
-            <div class="hero__image-placeholder rounded-xl" aria-hidden="true">
-              <span class="caption text-muted">Hero Image</span>
+
+          <!-- B — Fact Card, top-left text + badges (row 1, col 2) -->
+          <div class="bento__cell bento__b rounded-xl">
+            <div class="bento__b-graphic" aria-hidden="true">
+              <img src="assets/images/graphic-b.png" alt="" draggable="false">
+            </div>
+            <h3 class="bento__b-title">Permanent Hair Removal</h3>
+            <p class="bento__b-phrase">Any colour. Any skin type.</p>
+            <div class="bento__b-badges">
+              <span class="bento__b-badge">UK &amp; Ireland</span>
+              <span class="bento__b-badge">EU Certified</span>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ============================================================
-         SECTION 2 — Features Grid
-         ============================================================ -->
-    <section class="section-padding accent-section-light" aria-labelledby="features-heading">
-      <div class="container">
-        <header class="section-header mb-6">
-          <h2 id="features-heading">Breakthrough Technology with a 360° Partner Ecosystem</h2>
-          <p class="body-sm text-muted mt-2">Our ecosystem combines advanced devices with the training, marketing and operational support you need.</p>
-        </header>
-
-        <div class="grid-3">
-          <article class="card" data-tilt data-aos="fade-up">
-            <div class="card__icon mb-3" aria-hidden="true">
-              <div class="icon-placeholder rounded-md">01</div>
-            </div>
-            <h3>Partner Financing</h3>
-            <p class="body-sm text-muted mt-2">
-              Eliminate upfront investment with our transparent pay-monthly model. Our success is tied directly to yours.
-            </p>
-          </article>
-
-          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="100">
-            <div class="card__icon mb-3" aria-hidden="true">
-              <div class="icon-placeholder rounded-md">02</div>
-            </div>
-            <h3>Training Support</h3>
-            <p class="body-sm text-muted mt-2">
-              Best-in-class training to ensure you deliver optimal and safe results. Professional device training and business consultancy.
-            </p>
-          </article>
-
-          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="200">
-            <div class="card__icon mb-3" aria-hidden="true">
-              <div class="icon-placeholder rounded-md">03</div>
-            </div>
-            <h3>Marketing Support</h3>
-            <p class="body-sm text-muted mt-2">
-              Launch instantly with our professional branding solutions. Gain exclusive access to our marketing team for your promotional campaigns.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         SECTION 3 — Technology
-         ============================================================ -->
-    <section class="section-padding" aria-labelledby="tech-heading">
-      <div class="container">
-        <div class="grid-2 tech-grid">
-          <div class="tech__visual" data-reveal="left">
-            <div class="tech__image-placeholder rounded-xl" aria-hidden="true">
-              <span class="caption text-muted">Technology Image</span>
+          <!-- C — Portraits Card (row 2, col 2) -->
+          <div class="bento__cell bento__c rounded-xl">
+            <h3 class="bento__c-title">Trusted by Professionals</h3>
+            <p class="body-sm text-muted">Leading clinics across the UK &amp; EU</p>
+            <div class="bento__c-portraits">
+              <div class="bento__c-circle bento__c-circle--side">
+                <img src="assets/images/portrait-1.jpg" alt="Clinic professional">
+              </div>
+              <div class="bento__c-circle bento__c-circle--center">
+                <img src="assets/images/portrait-2.jpg" alt="Clinic professional">
+              </div>
+              <div class="bento__c-circle bento__c-circle--side">
+                <img src="assets/images/portrait-3.jpg" alt="Clinic professional">
+              </div>
             </div>
           </div>
-          <div class="tech__content" data-reveal="right" data-reveal-delay="150">
-            <h2 id="tech-heading">Unlock New Revenue with Managed Innovation</h2>
-            <p class="body-sm text-muted mt-3">
-              Retain your clinic's identity while leveraging our professional technology and managed
-              ecosystem to dominate your local market. Complementary technology that doesn't displace
-              your existing investments.
-            </p>
-            <ul class="tech__list mt-4" role="list">
-              <li class="tech__list-item">
-                <span class="tech__list-marker" aria-hidden="true"></span>
-                Device Support — future-proof tech with on-site upgrades
-              </li>
-              <li class="tech__list-item">
-                <span class="tech__list-marker" aria-hidden="true"></span>
-                Technical Support — unlimited, time-zone aligned helpdesk
-              </li>
-              <li class="tech__list-item">
-                <span class="tech__list-marker" aria-hidden="true"></span>
-                Managed Services — gold standard aftercare and device sparing
-              </li>
-              <li class="tech__list-item">
-                <span class="tech__list-marker" aria-hidden="true"></span>
-                Faster for clients, more viable and profitable for growth
-              </li>
-            </ul>
+
+          <!-- D — Experience Badge (row 1, col 3) -->
+          <div class="bento__cell bento__d rounded-xl">
+            <span class="bento__d-number">10+</span>
+            <span class="bento__d-label">Years of Medical Experience</span>
+            <div class="bento__d-badges">
+              <span class="bento__d-badge">Certified</span>
+              <span class="bento__d-badge">Trusted</span>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ============================================================
-         SECTION 4 — Partner CTA
-         ============================================================ -->
-    <section class="section-padding accent-section-dark" aria-labelledby="partner-cta-heading">
-      <div class="container partner-cta" data-aos="fade-up">
-        <h2 id="partner-cta-heading">White Hair Pro</h2>
-        <p class="body-sm mt-2">
-          A groundbreaking hair removal technology for aesthetic and beauty clinics. Launching
-          in the UK and EU in April 2026 — our exclusive breakthrough provides permanent hair
-          removal for any hair colour, including white, grey, blonde, and red. Suitable for any skin type.
-        </p>
-        <div class="mt-4">
-          <a href="partners/" class="button-primary button-lg">Learn More</a>
-        </div>
-      </div>
-    </section>
+          <!-- E — Review Ticker (rows 2-3, col 3) -->
+          <div class="bento__cell bento__e rounded-xl">
+            <!-- 5 Stars -->
+            <div class="bento__e-stars" aria-label="5 out of 5 stars">
+              <svg class="bento__e-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg class="bento__e-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg class="bento__e-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg class="bento__e-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg class="bento__e-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+            </div>
+            <span class="bento__e-stat">99%</span>
+            <span class="bento__e-stat-label">4k global trusted customers</span>
 
-    <!-- ============================================================
-         SECTION 5 — Testimonials
-         ============================================================ -->
-    <section class="section-padding" aria-labelledby="testimonials-heading">
-      <div class="container">
-        <header class="section-header mb-6">
-          <h2 id="testimonials-heading">What Your Success Looks Like</h2>
-          <p class="body-sm text-muted mt-2">Our 360° ecosystem is a business growth-optimisation engine.</p>
-        </header>
+            <div class="bento__e-ticker" aria-label="Partner reviews">
+              <div class="bento__e-fade bento__e-fade--top"></div>
+              <div class="bento__e-track">
 
-        <div class="grid-3">
-          <article class="card" data-tilt data-aos="fade-up">
-            <h3>Satisfied Customers</h3>
-            <p class="body-sm text-muted mt-2">
-              New treatments for existing and new customers. Let the technology speak for itself
-              and benefit from organic word-of-mouth PR.
-            </p>
-          </article>
+                <div class="bento__e-review">
+                  <div class="bento__e-review-stars" aria-hidden="true">
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                  </div>
+                  <p class="bento__e-review-text">"The 360° ecosystem transformed our clinic — results from week one."</p>
+                  <div class="bento__e-review-author">
+                    <div class="bento__e-review-avatar"><img src="assets/images/review-1.jpg" alt=""></div>
+                    <div>
+                      <p class="bento__e-review-name">Dr. Sarah L.</p>
+                      <p class="bento__e-review-role">Aesthetic Clinic, London</p>
+                    </div>
+                  </div>
+                </div>
 
-          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="100">
-            <h3>Industry Leader</h3>
-            <p class="body-sm text-muted mt-2">
-              Advanced technology to grow your client base. We adapt our managed services
-              to ensure you stay ahead of the curve.
-            </p>
-          </article>
+                <div class="bento__e-review">
+                  <div class="bento__e-review-stars" aria-hidden="true">
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                  </div>
+                  <p class="bento__e-review-text">"White Hair Pro opened an entirely new revenue stream for us."</p>
+                  <div class="bento__e-review-author">
+                    <div class="bento__e-review-avatar"><img src="assets/images/review-2.jpg" alt=""></div>
+                    <div>
+                      <p class="bento__e-review-name">Mark T.</p>
+                      <p class="bento__e-review-role">Clinic Director, Dublin</p>
+                    </div>
+                  </div>
+                </div>
 
-          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="200">
-            <h3>Business Accelerator</h3>
-            <p class="body-sm text-muted mt-2">
-              Maximise profits through in-demand treatments. Your success is our core commitment —
-              we provide the ecosystem, tools, and guidance.
-            </p>
-          </article>
+                <div class="bento__e-review">
+                  <div class="bento__e-review-stars" aria-hidden="true">
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                  </div>
+                  <p class="bento__e-review-text">"Training and marketing support were outstanding. Truly hands-on."</p>
+                  <div class="bento__e-review-author">
+                    <div class="bento__e-review-avatar"><img src="assets/images/review-3.jpg" alt=""></div>
+                    <div>
+                      <p class="bento__e-review-name">Dr. Anna K.</p>
+                      <p class="bento__e-review-role">Dermatologist, Manchester</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bento__e-review">
+                  <div class="bento__e-review-stars" aria-hidden="true">
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                  </div>
+                  <p class="bento__e-review-text">"Our clients love the painless treatment — rebookings are through the roof."</p>
+                  <div class="bento__e-review-author">
+                    <div class="bento__e-review-avatar"><img src="assets/images/review-4.jpg" alt=""></div>
+                    <div>
+                      <p class="bento__e-review-name">Jessica R.</p>
+                      <p class="bento__e-review-role">Clinic Owner, Birmingham</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bento__e-review">
+                  <div class="bento__e-review-stars" aria-hidden="true">
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                  </div>
+                  <p class="bento__e-review-text">"Finally a technology that treats all hair colours. Game changer."</p>
+                  <div class="bento__e-review-author">
+                    <div class="bento__e-review-avatar"><img src="assets/images/review-5.jpg" alt=""></div>
+                    <div>
+                      <p class="bento__e-review-name">Dr. Priya M.</p>
+                      <p class="bento__e-review-role">GP &amp; Aesthetician, Leeds</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bento__e-review">
+                  <div class="bento__e-review-stars" aria-hidden="true">
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    <svg class="bento__e-review-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                  </div>
+                  <p class="bento__e-review-text">"The partner portal makes ordering and support incredibly simple."</p>
+                  <div class="bento__e-review-author">
+                    <div class="bento__e-review-avatar"><img src="assets/images/review-6.jpg" alt=""></div>
+                    <div>
+                      <p class="bento__e-review-name">Tom W.</p>
+                      <p class="bento__e-review-role">Practice Manager, Edinburgh</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="bento__e-fade bento__e-fade--bottom"></div>
+            </div>
+          </div>
+
+          <!-- F — CTA Card (row 3, col 1) -->
+          <div class="bento__cell bento__f rounded-xl">
+            <h3 class="bento__f-title">Your Quote!</h3>
+            <p class="body-sm text-muted">Discover what the 360° partnership can do for your clinic.</p>
+            <a href="contact/" class="bento__f-cta">
+              <span class="bento__f-cta-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+              Get Your Quote Now
+            </a>
+          </div>
+
+          <!-- G — Looped Video (row 3, col 2) -->
+          <div class="bento__cell bento__g rounded-xl">
+            <video class="bento__g-video" autoplay muted loop playsinline>
+              <source src="assets/images/video.mp4" type="video/mp4">
+            </video>
+          </div>
+
         </div>
       </div>
     </section>
