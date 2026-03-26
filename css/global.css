@@ -537,8 +537,8 @@ p {
   transform: translateX(-50%);
   height: 56px;
 
-  /* Green glassmorphism */
-  background: rgba(53, 79, 82, 0.72);
+  /* Green glassmorphism — lighter gradient */
+  background: linear-gradient(135deg, rgba(82, 121, 111, 0.65), rgba(107, 144, 128, 0.55));
   backdrop-filter: blur(20px) saturate(1.8);
   -webkit-backdrop-filter: blur(20px) saturate(1.8);
 
@@ -582,10 +582,10 @@ p {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Scrolled — CTA icon stays solid white circle */
+/* Scrolled — CTA icon stays green */
 .site-header--scrolled .site-nav__cta-icon {
-  background: #fff;
-  color: var(--color-primary-dark-2);
+  background: var(--color-primary-mid);
+  color: #fff;
 }
 
 /* Scrolled — mobile hamburger turns white */
