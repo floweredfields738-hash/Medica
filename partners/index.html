@@ -6,6 +6,11 @@
   <meta name="description" content="Medical Fabrica — White Hair Pro partnership for aesthetic and beauty clinics. Permanent hair removal for any hair colour.">
   <title>Medical Fabrica — Partnerships</title>
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <!-- Styles -->
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/utilities.css">
@@ -29,10 +34,12 @@
       </button>
 
       <nav class="site-nav" role="navigation" aria-label="Main navigation">
-        <a href="../" class="site-nav__link">Home</a>
-        <a href="../about/" class="site-nav__link">About Us</a>
-        <a href="../partners/" class="site-nav__link">Partnerships</a>
-        <a href="../contact/" class="site-nav__link">Contact Us</a>
+        <div class="site-nav__links">
+          <a href="../" class="site-nav__link">Home</a>
+          <a href="../about/" class="site-nav__link">About Us</a>
+          <a href="../partners/" class="site-nav__link">Partnerships</a>
+          <a href="../contact/" class="site-nav__link">Contact Us</a>
+        </div>
         <a href="../login/" class="site-nav__cta">
           <span class="site-nav__cta-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
@@ -49,7 +56,7 @@
     <section class="hero-mini section-padding accent-section-light" aria-labelledby="partners-hero-heading">
       <div class="container">
         <h1 id="partners-hero-heading">Partnerships</h1>
-        <p class="body-sm text-muted mt-2">Partnership opportunities for aesthetic and beauty clinics through our 360° Partner Ecosystem.</p>
+        <p class="body-sm text-muted mt-2">A franchise-like investment opportunity for aesthetic clinics, beauty clinics, waxing centres and specialist hair removal centres.</p>
       </div>
     </section>
 
@@ -58,15 +65,13 @@
       <div class="container">
         <header class="section-header mb-6">
           <h2 id="benefits-heading">White Hair Pro</h2>
-          <p class="body-sm text-muted mt-2">New partnership for aesthetic and beauty clinics.</p>
+          <p class="body-sm text-muted mt-2">Your exclusive investment opportunity — now accepting registrations.</p>
         </header>
 
         <div class="grid-2">
           <div data-reveal>
             <p class="body-sm text-muted">
-              White Hair Pro is a partnership opportunity for aesthetic and beauty clinics wanting to offer
-              the latest and most advanced hair removal treatments. Launching in the UK and EU in April 2026,
-              we are now accepting registrations to become a hair removal specialist.
+              White Hair Pro is a franchise-like partnership for clinics wanting to dominate the hair removal market with exclusive technology. Launching across UK and EU territories, we are now vetting clinics for Partner Portal access and territory allocation.
             </p>
             <p class="body-sm text-muted mt-2">
               Our exclusive breakthrough technology provides permanent hair removal of any hair, including
@@ -164,12 +169,12 @@
     <!-- SECTION 5 — Apply CTA (accent dark) -->
     <section class="section-padding accent-section-dark" aria-labelledby="apply-cta-heading">
       <div class="container apply-cta" data-aos="fade-up">
-        <h2 id="apply-cta-heading">Are You Ready to Explore What the White Hair Pro 360° Partnership Will Do for Your Business?</h2>
+        <h2 id="apply-cta-heading">Ready to Secure Your Territory?</h2>
         <p class="body-sm mt-2">
-          Register to access the partner portal and learn more about the opportunity.
+          Register your clinic to be vetted for Partner Portal access. Receive full investment details, technology briefings and territory availability.
         </p>
         <div class="mt-4">
-          <a href="../contact/" class="button-primary button-lg">Become a Partner</a>
+          <a href="../contact/" class="button-primary button-lg">Register Your Clinic</a>
         </div>
       </div>
     </section>
@@ -179,29 +184,40 @@
   <!-- FOOTER -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <div class="site-footer__grid">
-        <div>
-          <p class="site-footer__brand">Medical Fabrica</p>
-          <p class="body-sm">Helping aesthetic clinics adopt and commercialise innovative treatment technologies.</p>
-        </div>
-        <div>
-          <p class="site-footer__heading">Pages</p>
-          <a href="../" class="site-footer__link">Home</a>
-          <a href="../about/" class="site-footer__link">About Us</a>
-          <a href="../partners/" class="site-footer__link">Partnerships</a>
-        </div>
-        <div>
-          <p class="site-footer__heading">Support</p>
-          <a href="../contact/" class="site-footer__link">Contact Us</a>
-          <a href="../login/" class="site-footer__link">Partner Login</a>
-        </div>
-        <div>
-          <p class="site-footer__heading">Legal</p>
-          <a href="#" class="site-footer__link">Privacy Policy</a>
+      <div class="site-footer__inner">
+        <div class="site-footer__grid">
+          <div>
+            <img src="../assets/images/logo.avif" alt="Medical Fabrica" class="site-footer__logo">
+            <p class="site-footer__brand">Your blueprint for success.</p>
+            <p class="site-footer__tagline">Helping aesthetic clinics adopt and commercialise innovative treatment technologies through our 360° Partner Ecosystem.</p>
+          </div>
+          <div>
+            <p class="site-footer__heading">Navigate</p>
+            <a href="../" class="site-footer__link">Home</a>
+            <a href="../about/" class="site-footer__link">About Us</a>
+            <a href="../partners/" class="site-footer__link">Partnerships</a>
+            <a href="../contact/" class="site-footer__link">Contact Us</a>
+          </div>
+          <div>
+            <p class="site-footer__heading">Partner</p>
+            <a href="../login/" class="site-footer__link">Partner Login</a>
+            <a href="../partners/" class="site-footer__link">Become a Partner</a>
+            <a href="../contact/" class="site-footer__link">Get a Quote</a>
+          </div>
+          <div>
+            <p class="site-footer__heading">Contact</p>
+            <a href="tel:+442077891000" class="site-footer__link">+44 (0) 207 789 1000</a>
+            <a href="mailto:info@medicalfabrica.com" class="site-footer__link">info@medicalfabrica.com</a>
+            <p class="site-footer__link" style="cursor:default;">Cavan, Ireland</p>
+          </div>
         </div>
       </div>
       <div class="site-footer__bottom">
-        <p>&copy; 2026 Medical Fabrica Limited. Registered in England and Wales with company number 16803928 and in Ireland with company number 802909.</p>
+        <p>&copy; <span class="js-year">2026</span> Medical Fabrica Limited. England &amp; Wales (16803928) · Ireland (802909)</p>
+        <div class="site-footer__bottom-links">
+          <a href="#" class="site-footer__bottom-link">Privacy Policy</a>
+          <a href="#" class="site-footer__bottom-link">Terms</a>
+        </div>
       </div>
     </div>
   </footer>

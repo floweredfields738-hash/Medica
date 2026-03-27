@@ -6,7 +6,32 @@
       "Bash(where gh:*)",
       "Bash(winget install:*)",
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
-      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --web --git-protocol https)"
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --web --git-protocol https)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&h=200&fit=crop&crop=face\" -o portrait-1.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&h=200&fit=crop&crop=face\" -o portrait-2.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&h=200&fit=crop&crop=face\" -o portrait-3.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=100&h=100&fit=crop&crop=face\" -o review-1.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face\" -o review-2.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop&crop=face\" -o review-3.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop&crop=face\" -o review-4.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1614289371518-722f2615943d?w=100&h=100&fit=crop&crop=face\" -o review-5.jpg)",
+      "Bash(ls -la /c/Users/Owain/Desktop/Medica/assets/images/portrait-*.jpg /c/Users/Owain/Desktop/Medica/assets/images/review-*.jpg)",
+      "Bash(ls /c/Users/Owain/Desktop/Medica/assets/images/bent*)",
+      "Bash(sed -i 's/  background: var\\(--color-primary-dark\\);//' home.css)",
+      "Bash(sed -i 's/  color: #fff;$//' home.css)",
+      "Bash(sed -i 's/  opacity: 0.12;/  opacity: 0.15;/' home.css)",
+      "Bash(sed -i 's/color: var\\(--color-primary-mid\\);/color: #9A9E99;/' home.css)",
+      "Bash(sed -i 's/color: var\\(--color-text-muted\\);/color: #9A9E99;/g' home.css)",
+      "Bash(sed -i 's/color: var\\(--color-primary-dark\\);/color: #9A9E99;/' home.css)",
+      "Bash(sed -n '358,362p' home.css)",
+      "Bash(sed -n '248,252p' home.css)",
+      "Bash(sed -n '255,259p' home.css)",
+      "Bash(sed -n '287,291p' home.css)",
+      "Bash(sed -n '370,374p' home.css)",
+      "Bash(sed -n '389,393p' home.css)",
+      "Bash(sed -n '447,451p' home.css)",
+      "Bash(sed -i 's|<p class=\"\"site-footer__brand\"\">Medical Fabrica</p>|<p class=\"\"site-footer__brand\"\">Your blueprint for success.</p>|g' about/index.html partners/index.html contact/index.html)",
+      "Bash(sed -i 's|Helping aesthetic clinics adopt and commercialise innovative treatment technologies.</p>|Helping aesthetic clinics adopt and commercialise innovative treatment technologies through our 360° Partner Ecosystem.</p>|g' about/index.html partners/index.html contact/index.html)"
     ]
   }
 }

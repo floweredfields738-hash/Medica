@@ -6,6 +6,11 @@
   <meta name="description" content="Medical Fabrica — Helping aesthetic clinics adopt and commercialise innovative treatment technologies through our 360° Partner Ecosystem.">
   <title>Medical Fabrica — About Us</title>
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <!-- Styles -->
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/utilities.css">
@@ -29,10 +34,12 @@
       </button>
 
       <nav class="site-nav" role="navigation" aria-label="Main navigation">
-        <a href="../" class="site-nav__link">Home</a>
-        <a href="../about/" class="site-nav__link">About Us</a>
-        <a href="../partners/" class="site-nav__link">Partnerships</a>
-        <a href="../contact/" class="site-nav__link">Contact Us</a>
+        <div class="site-nav__links">
+          <a href="../" class="site-nav__link">Home</a>
+          <a href="../about/" class="site-nav__link">About Us</a>
+          <a href="../partners/" class="site-nav__link">Partnerships</a>
+          <a href="../contact/" class="site-nav__link">Contact Us</a>
+        </div>
         <a href="../login/" class="site-nav__cta">
           <span class="site-nav__cta-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
@@ -49,7 +56,7 @@
     <section class="hero-mini section-padding accent-section-light" aria-labelledby="about-hero-heading">
       <div class="container">
         <h1 id="about-hero-heading">About</h1>
-        <p class="body-sm text-muted mt-2">Medical Fabrica was founded to help aesthetic clinics successfully adopt and commercialise innovative treatment technologies.</p>
+        <p class="body-sm text-muted mt-2">Medical Fabrica was founded to help aesthetic and beauty clinics successfully adopt, commercialise and profit from innovative treatment technologies through structured partnership investments.</p>
       </div>
     </section>
 
@@ -172,17 +179,12 @@
       <div class="container">
         <div class="grid-2 story-grid">
           <div class="story__content" data-reveal>
-            <h2 id="story-heading">The Challenge</h2>
+            <h2 id="story-heading">The Opportunity</h2>
             <p class="body-sm text-muted mt-3">
-              Introducing new technology into a clinic can be challenging. Beyond the device itself,
-              clinics need training, marketing support, operational guidance and ongoing technical
-              assistance to ensure treatments are delivered safely, effectively and profitably.
+              Introducing new treatment technology is expensive, risky and operationally complex. Clinics need more than a device — they need training, marketing support, operational guidance and ongoing technical assistance to ensure treatments are delivered safely, effectively and profitably.
             </p>
             <p class="body-sm text-muted mt-2">
-              Medical Fabrica was created to bring these elements together through a structured
-              partnership model. Our 360° Partner Ecosystem combines technology, education,
-              marketing resources and operational support, enabling clinics to confidently introduce
-              new treatments while maintaining their own brand identity and clinical standards.
+              Medical Fabrica was created to eliminate that risk. Our 360° Partner Ecosystem is a franchise-like investment model that combines breakthrough technology with everything a clinic needs to launch, grow and sustain a new treatment offering — without the usual capital outlay. Your clinic keeps its brand. We provide the ecosystem.
             </p>
           </div>
           <div class="story__visual" data-reveal="right" data-reveal-delay="150">
@@ -199,9 +201,7 @@
       <div class="container mission-block" data-aos="fade-up">
         <h2 id="product-heading">White Hair Pro</h2>
         <p class="mt-3">
-          The first technology introduced through this ecosystem is White Hair Pro, an innovative
-          hair removal solution designed to treat all hair colours, including white, grey, red
-          and blonde hair — an area traditionally underserved by conventional laser technologies.
+          The first partnership opportunity through this ecosystem is White Hair Pro — exclusive technology for permanent hair removal of all hair colours, including white, grey, red and blonde. No other device in the world can offer this. Now accepting clinic registrations for UK and EU territories.
         </p>
       </div>
     </section>
@@ -218,27 +218,21 @@
           <article class="card" data-tilt data-aos="fade-up">
             <h3>Supporting Partner Success</h3>
             <p class="body-sm text-muted mt-2">
-              Partners gain access to the tools and resources needed to launch and grow new treatments,
-              including clinical training, marketing support and ongoing technical assistance. Our
-              approach is collaborative and practical.
+              Partners receive full onboarding — certification-level training, professional marketing kits, social media assets and ongoing technical support. Our approach is hands-on and designed to ensure your investment generates returns from week one.
             </p>
           </article>
 
           <article class="card" data-tilt data-aos="fade-up" data-aos-delay="100">
-            <h3>Supporting Consumer Confidence</h3>
+            <h3>Built for Clinic Profitability</h3>
             <p class="body-sm text-muted mt-2">
-              By supporting our partner clinics with training, protocols and ongoing support, Medical
-              Fabrica helps ensure treatments are delivered with professionalism and confidence. Satisfied
-              patients drive growth through repeat visits and referrals.
+              Every element of the ecosystem is designed to drive recurring revenue. Satisfied clients rebook, refer others and build your reputation organically. Our managed services ensure business continuity so you can focus on growth, not operations.
             </p>
           </article>
 
           <article class="card" data-tilt data-aos="fade-up" data-aos-delay="200">
-            <h3>Our Vision</h3>
+            <h3>International Expansion</h3>
             <p class="body-sm text-muted mt-2">
-              Medical Fabrica operates across the UK, Ireland and Europe, with plans to expand further
-              internationally. We focus on identifying innovative technologies that address real clinical
-              and commercial opportunities for aesthetic clinics.
+              Medical Fabrica is expanding across the UK, Ireland and Europe — with France, Germany, Spain and Poland as priority markets. Register now to secure your territory before competitor clinics in your area.
             </p>
           </article>
         </div>
@@ -250,29 +244,40 @@
   <!-- FOOTER -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <div class="site-footer__grid">
-        <div>
-          <p class="site-footer__brand">Medical Fabrica</p>
-          <p class="body-sm">Helping aesthetic clinics adopt and commercialise innovative treatment technologies.</p>
-        </div>
-        <div>
-          <p class="site-footer__heading">Pages</p>
-          <a href="../" class="site-footer__link">Home</a>
-          <a href="../about/" class="site-footer__link">About Us</a>
-          <a href="../partners/" class="site-footer__link">Partnerships</a>
-        </div>
-        <div>
-          <p class="site-footer__heading">Support</p>
-          <a href="../contact/" class="site-footer__link">Contact Us</a>
-          <a href="../login/" class="site-footer__link">Partner Login</a>
-        </div>
-        <div>
-          <p class="site-footer__heading">Legal</p>
-          <a href="#" class="site-footer__link">Privacy Policy</a>
+      <div class="site-footer__inner">
+        <div class="site-footer__grid">
+          <div>
+            <img src="../assets/images/logo.avif" alt="Medical Fabrica" class="site-footer__logo">
+            <p class="site-footer__brand">Your blueprint for success.</p>
+            <p class="site-footer__tagline">Helping aesthetic clinics adopt and commercialise innovative treatment technologies through our 360° Partner Ecosystem.</p>
+          </div>
+          <div>
+            <p class="site-footer__heading">Navigate</p>
+            <a href="../" class="site-footer__link">Home</a>
+            <a href="../about/" class="site-footer__link">About Us</a>
+            <a href="../partners/" class="site-footer__link">Partnerships</a>
+            <a href="../contact/" class="site-footer__link">Contact Us</a>
+          </div>
+          <div>
+            <p class="site-footer__heading">Partner</p>
+            <a href="../login/" class="site-footer__link">Partner Login</a>
+            <a href="../partners/" class="site-footer__link">Become a Partner</a>
+            <a href="../contact/" class="site-footer__link">Get a Quote</a>
+          </div>
+          <div>
+            <p class="site-footer__heading">Contact</p>
+            <a href="tel:+442077891000" class="site-footer__link">+44 (0) 207 789 1000</a>
+            <a href="mailto:info@medicalfabrica.com" class="site-footer__link">info@medicalfabrica.com</a>
+            <p class="site-footer__link" style="cursor:default;">Cavan, Ireland</p>
+          </div>
         </div>
       </div>
       <div class="site-footer__bottom">
-        <p>&copy; 2026 Medical Fabrica Limited. Registered in England and Wales with company number 16803928 and in Ireland with company number 802909.</p>
+        <p>&copy; <span class="js-year">2026</span> Medical Fabrica Limited. England &amp; Wales (16803928) · Ireland (802909)</p>
+        <div class="site-footer__bottom-links">
+          <a href="#" class="site-footer__bottom-link">Privacy Policy</a>
+          <a href="#" class="site-footer__bottom-link">Terms</a>
+        </div>
       </div>
     </div>
   </footer>

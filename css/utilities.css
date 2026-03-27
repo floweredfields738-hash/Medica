@@ -21,11 +21,11 @@
 .font-bold     { font-weight: 700; }
 .font-extrabold { font-weight: 800; }
 
-.text-primary  { color: var(--color-primary-600); }
-.text-dark     { color: var(--color-primary-900); }
-.text-muted    { color: var(--color-text-muted); }
-.text-accent   { color: var(--color-accent-400); }
-.text-white    { color: var(--color-white); }
+.text-primary  { color: #36504A; }
+.text-dark     { color: #000; }
+.text-muted    { color: #000; }
+.text-accent   { color: #36504A; }
+.text-white    { color: #fff; }
 
 /* --- Display --- */
 .block        { display: block; }

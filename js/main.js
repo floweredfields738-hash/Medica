@@ -12,7 +12,19 @@ document.addEventListener('DOMContentLoaded', () => {
   initVanillaTilt();
   initScrollReveal();
   initHeaderScroll();
+  initCopyrightYear();
 });
+
+
+/* ==========================================================================
+   0. AUTO-UPDATE COPYRIGHT YEAR
+   ========================================================================== */
+
+function initCopyrightYear() {
+  document.querySelectorAll('.js-year').forEach(el => {
+    el.textContent = new Date().getFullYear();
+  });
+}
 
 
 /* ==========================================================================

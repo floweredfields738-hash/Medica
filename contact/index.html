@@ -6,6 +6,11 @@
   <meta name="description" content="Medical Fabrica — Get in touch with our team. We'd love to hear from you.">
   <title>Medical Fabrica — Contact</title>
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <!-- Styles -->
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/utilities.css">
@@ -29,10 +34,12 @@
       </button>
 
       <nav class="site-nav" role="navigation" aria-label="Main navigation">
-        <a href="../" class="site-nav__link">Home</a>
-        <a href="../about/" class="site-nav__link">About Us</a>
-        <a href="../partners/" class="site-nav__link">Partnerships</a>
-        <a href="../contact/" class="site-nav__link">Contact Us</a>
+        <div class="site-nav__links">
+          <a href="../" class="site-nav__link">Home</a>
+          <a href="../about/" class="site-nav__link">About Us</a>
+          <a href="../partners/" class="site-nav__link">Partnerships</a>
+          <a href="../contact/" class="site-nav__link">Contact Us</a>
+        </div>
         <a href="../login/" class="site-nav__cta">
           <span class="site-nav__cta-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
@@ -49,7 +56,7 @@
     <section class="hero-mini section-padding accent-section-light" aria-labelledby="contact-hero-heading">
       <div class="container">
         <h1 id="contact-hero-heading">Contact Us</h1>
-        <p class="body-sm text-muted mt-2">To learn more about our technology and how a partnership with us can benefit your business, please get in touch.</p>
+        <p class="body-sm text-muted mt-2">Interested in the partnership investment? Register your clinic details below and our team will be in touch to discuss territory availability.</p>
       </div>
     </section>
 
@@ -60,8 +67,8 @@
 
           <!-- Contact Form -->
           <div data-reveal>
-            <h2 id="contact-form-heading">Message Us</h2>
-            <p class="body-sm text-muted mt-2 mb-4">Existing partners please contact us through your portal access.</p>
+            <h2 id="contact-form-heading">Register Your Interest</h2>
+            <p class="body-sm text-muted mt-2 mb-4">Complete the form below to begin the vetting process. Existing partners — please log in via your Partner Portal.</p>
 
             <form class="contact-form" action="#" method="POST" novalidate>
               <div class="grid-2">
@@ -215,29 +222,40 @@
   <!-- FOOTER -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <div class="site-footer__grid">
-        <div>
-          <p class="site-footer__brand">Medical Fabrica</p>
-          <p class="body-sm">Helping aesthetic clinics adopt and commercialise innovative treatment technologies.</p>
-        </div>
-        <div>
-          <p class="site-footer__heading">Pages</p>
-          <a href="../" class="site-footer__link">Home</a>
-          <a href="../about/" class="site-footer__link">About Us</a>
-          <a href="../partners/" class="site-footer__link">Partnerships</a>
-        </div>
-        <div>
-          <p class="site-footer__heading">Support</p>
-          <a href="../contact/" class="site-footer__link">Contact Us</a>
-          <a href="../login/" class="site-footer__link">Partner Login</a>
-        </div>
-        <div>
-          <p class="site-footer__heading">Legal</p>
-          <a href="#" class="site-footer__link">Privacy Policy</a>
+      <div class="site-footer__inner">
+        <div class="site-footer__grid">
+          <div>
+            <img src="../assets/images/logo.avif" alt="Medical Fabrica" class="site-footer__logo">
+            <p class="site-footer__brand">Your blueprint for success.</p>
+            <p class="site-footer__tagline">Helping aesthetic clinics adopt and commercialise innovative treatment technologies through our 360° Partner Ecosystem.</p>
+          </div>
+          <div>
+            <p class="site-footer__heading">Navigate</p>
+            <a href="../" class="site-footer__link">Home</a>
+            <a href="../about/" class="site-footer__link">About Us</a>
+            <a href="../partners/" class="site-footer__link">Partnerships</a>
+            <a href="../contact/" class="site-footer__link">Contact Us</a>
+          </div>
+          <div>
+            <p class="site-footer__heading">Partner</p>
+            <a href="../login/" class="site-footer__link">Partner Login</a>
+            <a href="../partners/" class="site-footer__link">Become a Partner</a>
+            <a href="../contact/" class="site-footer__link">Get a Quote</a>
+          </div>
+          <div>
+            <p class="site-footer__heading">Contact</p>
+            <a href="tel:+442077891000" class="site-footer__link">+44 (0) 207 789 1000</a>
+            <a href="mailto:info@medicalfabrica.com" class="site-footer__link">info@medicalfabrica.com</a>
+            <p class="site-footer__link" style="cursor:default;">Cavan, Ireland</p>
+          </div>
         </div>
       </div>
       <div class="site-footer__bottom">
-        <p>&copy; 2026 Medical Fabrica Limited. Registered in England and Wales with company number 16803928 and in Ireland with company number 802909.</p>
+        <p>&copy; <span class="js-year">2026</span> Medical Fabrica Limited. England &amp; Wales (16803928) · Ireland (802909)</p>
+        <div class="site-footer__bottom-links">
+          <a href="#" class="site-footer__bottom-link">Privacy Policy</a>
+          <a href="#" class="site-footer__bottom-link">Terms</a>
+        </div>
       </div>
     </div>
   </footer>

@@ -1,0 +1,177 @@
+Medical Fabrica Website Stuff
+https://medicalfabrica.com/
+By Owain Routledge    /    25.03.2026
+
+Follow up added at the bottom of the document (27/03/2026)
+
+
+Good Stuff
+Modern sans-serif typography choice
+Consistent color usage (just bad colour choices)
+Plenty of breathing room (not cramped)
+Professional, safe corporate aesthetic
+No distracting animations or gimmicks
+Simple navigation structure
+Sections clearly separated vertically
+Responsive-friendly structure
+Uses iconography to break text blocks
+Minimalist approach suits medical industry tone
+Visual noise kept low
+Consistent button styling
+Images appear high quality (not pixelated)
+Good alignment discipline
+Accessible color contrast in most areas
+Not overwhelming for first-time visitors 
+Bad Stuff
+Very template-looking layout - lacks any unique visual identity
+Hero section feels flat and lifeless - no strong focal point
+Weak visual hierarchy - headings, subheadings, and body text blend together
+Too much white space without purpose - creates a “thin” feeling
+Button styles are generic - no strong call-to-action emphasis
+Color palette is overly safe (corporate blue/white) - forgettable
+No standout visual anchor on pages - eye doesn’t know where to land
+Sections feel stacked blocks rather than designed compositions
+Typography pairing is bland - no personality or contrast
+Font weights not used effectively to guide scanning
+Spacing inconsistent - some sections tight, others overly loose
+Icons look generic stock set - no brand cohesion
+Visual rhythm is weak - nothing creates pacing down the page
+Lack of subtle motion/micro-interaction - feels static
+Cards and containers look default - no depth, layering, or visual interest
+No use of gradients, texture, or subtle background variation
+Navigation bar visually blends into page - not distinct enough
+Hero image doesn’t create emotion or authority
+Overuse of centered layouts - reduces readability and flow
+Grid structure feels basic - not refined
+No visual storytelling through imagery
+Sections lack separators - everything flows together
+No visual “premium” cues (shadows, depth, scale hierarchy)
+Mobile design likely just stacked - not rethought responsively
+Footer visually weak - doesn’t anchor the page
+Contrast between elements could be stronger
+Buttons don’t feel clickable enough
+No strong hover states or interactive affordances
+Overall aesthetic feels early-stage startup, not established medtech
+Lacks memorable visual motif or signature style
+First Glance Opinion:
+Professional but forgettable, it’s built safe but not premium, and gives off a low-effort vibe. It feels like it’s a basic template, with content slapped on. 0 factor. Has brand driven features, but not well-placed into the website. Not design focused, instead it’s content focused. Which is good, but it’s not memorable, it’s not easy to navigate and it certainly doesn’t grab attention (which when selling, is a must!)
+
+Dark colours don’t give off a healthcare facilitator, a good switch would be moving to light colours and greens or other soft colours.
+
+Buttons aren’t functional - must fix. Feels very pre-MVP.
+I’d personally say re-build the whole site with a different approach: make it interactable and smooth. Something that stands out.
+
+Questions:
+If you want to give me free reign for any of these questions / requirements. State so, more than happy with this option.
+Do you guys have an asset/brand pack (logos, graphics for the site, slogans, mottos.. etc)
+Yes we have branding pack and guidelines
+Web hosting login details?
+We can supply
+Any specific fonts you want to use? Serif and Sans Serif in terms of body text and titles.
+You can find these within the branding pack
+Please explain the partner functionality piece - I’m lacking understanding here and what the goal of it is
+We are not giving away too much information to the general public. Because we have a unique offering we aim to secure our channel (here and overseas) while keeping a low profile.The clinic-focused adverts we are launching in April will drive traffic to the partnership page www.medicalfabrica.com/whitehairpro.  This is the first partnership (franchise-like partnership) which Medical Fabrica is launching but there is more to come.  Customers (aesthetic treatment clinics, beauty clinics, waxing centres, specialist hair removal centres) will review the White Hair Pro partnership page (landing page) and register their information to sign up and be vetted for Partner Portal Access. 
+
+Do you have the portal built out? Is this something you’d like to implement - if I know what system it is built on, I can future proof the website and setup a framework that doesn’t break the site, so the portal (the backend dev structure of it) just slots into the website for the developer that works on it…
+
+ We see their information and another email should be sent requesting more information (we don't want to overload an interested customer at the first registration form). With all the information approved by our team, we would allow username and password to be sent to the client. The first time the client signs into the portal they will have a very subtle NDA tickbox to proceed. Upon signing in they will land in the onboarding partner area. Here there will be three presentations/videos: 1. Technology, 2. Opportunity 3. Partnership (these informations will need locked down and message to reinforce the NDA they signed on entry reminded). If they are interested to discuss further they can schedule an appointment for a teams/webex call and if not, then a general feedback form so we don't hassle them after they leave the site. 
+Once a client signs the contract they will have direct access to the partner portal (rather than the onboarding area).  I can share our current partner portal so you can see the very early stage area we built with placeholders etc.  
+
+Yes please, only just read this section, I’d love to see the client portal, as well as possibly some of the backend so I can correctly hook it up to the main site - unless that's for another developer to do!
+
+ In a nutshell, a partner can login to order stuff (skincare products and marketing materials) and also gain access to any sales aids we produce. They will also be an area for training (*training is not face-to-face; it's provided via website slides/video presentation. 
+Colour to be changed, are we happy if I explore more colour options?
+
+Current:
+###    ###    ###    ###    ###
+
+Owain’s Recommendation Colour Ideas: (these establish a medical feel to the site”
+###    ###    ###    ###    ###    ###   ###    ###    ###
+
+
+Happy to role with your choice of colours
+Pages + content. I need all the content you guys have available, what's important (MUST BE ON SITE), what can be used as filler. 
+You were exactly right in your comments “It feels like it’s a basic template, with content slapped on”. We have created most of the information you see. There is no other website for us to follow. We took a basic wordpress template and developed it, writing content, banners etc. to tell the story and whilst on a budget we produced a site that's “ok” but a long way from “great” and in a short amount of time. Some of the marketing messages still need to change but I will work on this to ensure it doesn't slow you down.  All of the content we have is on the website, I feel it's a no bull-shit site, the wording has come through a copy writer and while we know the site is poor for SEO etc. that's really not high on our agenda today. IF there are things you feel we need content wise, let me know next week and I will craft stuff as best I can.
+Graphics, videos, visuals, I need as much as you can provide.
+The single video you see today is our only video right now. The final slide will change next week that's displayed on this video as it's messy. The graphics are all we have today and we are really not happy with most of them. There is one banner that shows a product that is not our device so that will need to change. We have all the original images.
+^^ More than happy to help develop some footage, content, even utilise AI in some aspects if needed.
+Send me a list of some websites you love the design of (more the merrier), and also a list of websites you hate, and why.  - List of specific features you want to see, if any!
+We would rather you take all the information from us and recommend something please.
+These questions are for my understanding of the website:
+What problem is this product solving?
+Hair removal. Anyone who has unwanted hairs on their body can now receive our treatment and the hairs will not regrow. 
+Who is the target audience?
+This partnership “White Hair Pro” is for Aesthetic and Beauty clinics.
+What are the must-have features vs. nice-to-have?
+Partner Portal is huge for us as we have no sales-people, the product should sell itself through digital marketing. Medical Fabrica is a corporate business and we just feel the current website is not very corporate. The website will also service Europe and in the short term France, Germany, Spain and Poland then USA but we may consider a new website for the USA as the product offering will be full-legal-francise by that time. 
+Are there accessibility requirements?
+I don't quite understand this but if you're talking about client visits who are somehow disabled then no.
+Will this site in the future have back-end functionality (login, register, portals, etc)
+Must have login to the onboarding area on April 1st plus we need the shop working even if it's not polished for the purpose of sharing screen shorts of what's available to partners after sign-up.  I can provide the details of email addresses connected to the website registration forms if you can not see from the wordpress backend. 
+How could I future proof this website for company expansion?
+International expansion so any language related stuff but don't worry short term unless you have something to discuss.
+SEO Optimisation is a marketing tool - I will need keywords, buzzwords in the industry related to the product for me to optimize the SEO.
+Not top of our list for now. We are unique by the time SEO works we will have our channel sorted.
+Any legal or documentation pages? If so, what, as these must be presented a certain way legally.
+You can see privacy policy, we also need an NDA to be implemented upon first access to the onboarding area. Any other forms you feel we need, please let us know.
+OTHER COMMENTS FROM KEITH: 
+We would need full access to the website after build for any adds moves and changes we can undertake inhouse (obviously without ruining your design etc). The website hosting will be moved to our server or can be build from that server if you prefer. I would like to see the site develop so there are no unpleasant surprises at launch date.
+^^ I’ll prepare a documentation, within the cost of this website build, which will be finished after website launch, that you can pass on to any future web-developers working on the site, with developer specific design guidelines etc.
+I can create content if you let me know what will help fill out the website but I have limited time and personally I would rather not see any SEO style content.
+^^ Have done a big SEO list, utilised AI but cherry-picked and manually edited. You should be free from working on any SEO content, I’ve got it figured out - save ya some time 🙂
+We have done our best with the graphics but realise it's poor. We are looking forward to seeing what you can bring to the table. 
+^^ I have done a lot here, graphics are essential! Hopefully, created some extra custom icons, logo variations, logo alternatives, custom image graphics. 
+Please review the brand guidelines which we will send this evening and ask any further questions. 
+^^ Have done a big SEO list, utilised AI but cherry-picked and manually edited.
+Thanks for your interest to work with us, there are more sites and other projects. I am sure the future is bright. We are well connected, so of course if what you bring to the table is solid we will do our best to recommend others your way.
+I recommend we set up a whatsapp chat group where i can add Matt our current web guy *(personal friend), who will help share information you may require and save us all time..
+^^ Very happy with this, feel free to add him to the group chat.
+Important Other:
+Payment Structure:
+I require a £200 deposit minimum, to cover software licenses and a temporary development server to host a real-time product before the product is launched onto the main website. This deposit is non-refundable in any cases or instances.
+I trust Gerard, so I can request payment once you’re happy with the website, instead of the usual payment by milestones. (roughly 7 days from start date). That payment will be £2,000. In terms of other payments, the client (you) will have to cover domain and web hosting costs (already covered)
+Total, including deposit: £2,200.00
+
+Bank Details:
+Account Number:
+52071544
+
+
+Sort Code:
+09-01-29
+
+
+Bank Address:
+Santander UK, Payments Team, PO Box 249, Bootle, L30 4YH
+
+
+Account Name:
+Owain L Routledge
+
+
+
+
+Do I have permission to use this website in my portfolio in the future?
+
+
+
+
+
+Follow-up into development:
+
+
+Images of the product exactly, currently only have close-ups
+
+
+Use of a serif font, I think this is key when promoting something professional. I’ve put a temporary placeholder font in alongside the provided font (placeholder font is commercially free to use, will showcase tomorrow and happy to change to whatever, just a suggestion!)
+
+
+Is it possible to get more footage of the product in use, not urgent, can do without, but it opens up a lot more design possibilities.
+
+
+Any reviews/testing reviews, testimonials, anyone to ask to provide these for on the site? Reviews go a long way in building trust…
+
+
+Do you want me to prepare a simple registration form? I know you mentioned you don't want to overload the interested clients with the initial registration form - but would you like a simple contact form to automate that first step? IE, “register”, fill in their name, email, business name, possibly phone number? Then an email or something is sent to a backend system (more than happy to build this), and from there you guys reach back out to them via email or phone, and continue the process? 
+
+How do you want this setup?
