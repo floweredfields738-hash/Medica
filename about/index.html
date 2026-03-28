@@ -52,11 +52,19 @@
 
   <main id="main-content">
 
-    <!-- SECTION 1 — Hero -->
-    <section class="hero-mini section-padding accent-section-light" aria-labelledby="about-hero-heading">
-      <div class="container">
-        <h1 id="about-hero-heading">About</h1>
-        <p class="body-sm text-muted mt-2">Medical Fabrica was founded to help aesthetic and beauty clinics successfully adopt, commercialise and profit from innovative treatment technologies through structured partnership investments.</p>
+    <!-- SECTION 0 — About Hero (half-height home hero container) -->
+    <section class="about-hero" aria-labelledby="about-hero-heading">
+      <div class="about-hero__container">
+        <div class="about-hero__content">
+          <h1 id="about-hero-heading" class="hero__title">About Us</h1>
+          <p class="hero__paragraph">
+            Medical Fabrica was founded to help aesthetic clinics successfully adopt and commercialise innovative treatment technologies. With years of expertise we build trust, deliver care, and ensure every partner feels valued.
+          </p>
+          <a href="../contact/" class="about-hero__cta">Book a Consultation</a>
+        </div>
+      </div>
+      <div class="about-hero__image">
+        <img src="../assets/images/doctor smily.png" alt="Healthcare professional" draggable="false">
       </div>
     </section>
 
@@ -174,6 +182,15 @@
       </div>
     </section>
 
+    <!-- SECTION — Secondary Container -->
+    <section class="about-secondary">
+      <div class="about-secondary__container">
+        <video class="about-secondary__video" autoplay muted loop playsinline>
+          <source src="../assets/video/hf_20260327_225827_e8e3ae8c-9431-4572-9941-e01ccad9ed99.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
     <!-- SECTION 2 — Our Story -->
     <section class="section-padding" aria-labelledby="story-heading">
       <div class="container">
@@ -206,35 +223,41 @@
       </div>
     </section>
 
-    <!-- SECTION 4 — Partner & Consumer Focus -->
-    <section class="section-padding" aria-labelledby="focus-heading">
+    <!-- SECTION 4 — Commitment Cards -->
+    <section class="section-padding" aria-labelledby="commitment-heading">
       <div class="container">
-        <header class="section-header mb-6">
-          <h2 id="focus-heading">Our Commitment</h2>
-          <p class="body-sm text-muted mt-2">Supporting partners and consumers alike.</p>
-        </header>
+        <div class="commitment-grid">
 
-        <div class="grid-3">
-          <article class="card" data-tilt data-aos="fade-up">
-            <h3>Supporting Partner Success</h3>
-            <p class="body-sm text-muted mt-2">
-              Partners receive full onboarding — certification-level training, professional marketing kits, social media assets and ongoing technical support. Our approach is hands-on and designed to ensure your investment generates returns from week one.
+          <article class="commitment-card">
+            <div class="commitment-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="commitment-card__title">Supporting Partner Success</h3>
+            <p class="commitment-card__text">
+              We help clinics launch and grow new treatments through hands-on clinical training, marketing support and ongoing technical assistance — ensuring smooth integration while maintaining high standards of care.
             </p>
           </article>
 
-          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="100">
-            <h3>Built for Clinic Profitability</h3>
-            <p class="body-sm text-muted mt-2">
-              Every element of the ecosystem is designed to drive recurring revenue. Satisfied clients rebook, refer others and build your reputation organically. Our managed services ensure business continuity so you can focus on growth, not operations.
+          <article class="commitment-card commitment-card--highlight">
+            <div class="commitment-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3 class="commitment-card__title">Supporting Consumer Confidence</h3>
+            <p class="commitment-card__text">
+              We equip partner clinics with training, protocols and ongoing support so every treatment is delivered safely and professionally — building patient trust that drives repeat visits and referrals.
             </p>
           </article>
 
-          <article class="card" data-tilt data-aos="fade-up" data-aos-delay="200">
-            <h3>International Expansion</h3>
-            <p class="body-sm text-muted mt-2">
-              Medical Fabrica is expanding across the UK, Ireland and Europe — with France, Germany, Spain and Poland as priority markets. Register now to secure your territory before competitor clinics in your area.
+          <article class="commitment-card">
+            <div class="commitment-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="commitment-card__title">Our Vision</h3>
+            <p class="commitment-card__text">
+              Operating across the UK, Ireland and Europe, we identify innovative technologies and pair them with structured support — helping clinics stay competitive in a rapidly evolving aesthetic market.
             </p>
           </article>
+
         </div>
       </div>
     </section>
